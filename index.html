@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>app clima</title>
+</head>
+<body>
+    <main>
+        <section id="wrapper-clima">
+            <h1>app clima</h1>
+            <div id="buscar-clima">
+                <input id="buscar" type="text" placeholder="busque por cidade" />
+                <input id="enviar" type="submit" onclick="fetchWeather()" value="buscar">
+            </div>
+            <div id="dados-clima" style="display: none;"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

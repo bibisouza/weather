@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #feffe2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+
+main {
+    background-color: rgb(116, 90, 132);
+    position: relative;
+    top: 30%;
+    border: 1px solid;
+    border-radius: 5px;
+    min-width: 540px;
+    max-width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#buscar {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 42px;
+}
+
+#enviar {
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 5em;
+    cursor: pointer;
+}
+
+#wrapper-clima {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+}
+
+#buscar-clima {
+    display: flex;
+    width: 50%;
+}
+
+#dados-clima {
+    background-color: #d691e9;
+    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 20px;
+
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#dados-clima > img {
+    border-radius: 50%;
+    background-color: rgb(213, 157, 255);
+}
